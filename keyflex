@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Generate number from 0-25
+echo $(( RANDOM % 26 ))
+
+# Print as ascii
+# Tell user to type it, start the clock
+# Once typed (without enter, hopefully) `read -n 1 "Type the letter"`
+
+printf "%d\n"
